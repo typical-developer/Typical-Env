@@ -22,7 +22,7 @@ export default function Hero(
                 )}
             >
                 <div className="space-y-4 flex-center flex-col">
-                    <h1 className="font-bold text-8xl text-white">
+                    <h1 className="font-bold text-5xl lg:text-[min(8vw,92px)] text-center text-white">
                         <BlurText
                         text={pageName}
                         delay={150}
