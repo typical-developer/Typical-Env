@@ -22,14 +22,14 @@ export default function Hero(
                 )}
             >
                 <div className="space-y-4 flex-center flex-col">
-                    <h1 className="font-bold text-3xl text-black">
+                    <h1 className="font-bold text-8xl text-white">
                         <BlurText
                         text={pageName}
                         delay={150}
                         animateBy="words"
                         direction="top"
                         onAnimationComplete={handleAnimationComplete}
-                        className="text-2xl"
+                        className=""
                         />
                     </h1>
                     <Link to={buttonPath}>

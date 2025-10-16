@@ -6,6 +6,8 @@ import 'boxicons/css/boxicons.min.css'; //https://http://boxicons.com/icons
 import Aos from 'aos'; // https://github.com/michalsnik/aos
 import 'aos/dist/aos.css';
 
+import Prism from "./components/bits/Prisim.jsx"; //Prism Background
+
 export default function App({ className }) {
 
   useEffect(() => {
@@ -36,10 +38,31 @@ export default function App({ className }) {
 
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+
+    <div className="relative w-full h-svh overflow-hidden">
+      {/* Prism background */}
+      <Prism
+        animationType="rotate"
+        timeScale={0.5}
+        height={3}
+        baseWidth={5}
+        scale={3}
+        hueShift={0}
+        colorFrequency={1}
+        noise={0.5}
+        glow={1}
+        className="absolute inset-0 z-0"
+      />
+
+      {/* Page content */}
+      <div className="absolute inset-0 z-50">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </div>
+
     </>
   );
 }
