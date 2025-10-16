@@ -15,7 +15,7 @@
 
 ---
 
-### Why Typical Env
+### Why Typical Env?
 I built this template to eliminate the repetitive setup process I go through each time I start a new project.  
 It saves time and ensures consistency in my development environment.
 
