@@ -7,7 +7,10 @@ export default function Home({className}) {
     <>
       <div className={cn("flex min-h-svh flex-center", className)}>
         <Link to="/about">
-          <Button className="font-code">About Page</Button>
+          <Button className="font-code">
+            <i className="bx bx-question-mark"></i>
+            View About Page
+          </Button>
         </Link>
       </div>
     </>

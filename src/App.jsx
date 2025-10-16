@@ -1,6 +1,7 @@
 import { Routes,Route } from "react-router";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import 'boxicons/css/boxicons.min.css'
 
 export default function App({ className }) {
   return (
