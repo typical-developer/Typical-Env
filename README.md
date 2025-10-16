@@ -1,12 +1,12 @@
 # Env-Template
 
 ### What is it?
-This is a template of my development environment.
+This is a template of my default development environment.
 
 ---
 
 ### What does it do?
-It helps save my time from manually installing new packages and dependencies each time I start a new project
+It saves the time I usually spend setting up my default development environment.
 
 ---
 
