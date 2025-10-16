@@ -1,7 +1,10 @@
 import { Button } from "./ui/button.jsx";
 import { Link } from "react-router-dom";
 import { cn } from "../utils/cn";
-
+import BlurText from "./bits/BlurText.jsx";
+const handleAnimationComplete = () => {
+  console.log('Animation completed!');
+};
 
 export default function Hero(
     {className,
@@ -19,8 +22,15 @@ export default function Hero(
                 )}
             >
                 <div className="space-y-4 flex-center flex-col">
-                    <h1 className="font-semibold text-2xl">
-                        This is the <span className="font-code text-gray-800">{pageName}</span>
+                    <h1 className="font-bold text-3xl text-black">
+                        <BlurText
+                        text={pageName}
+                        delay={150}
+                        animateBy="words"
+                        direction="top"
+                        onAnimationComplete={handleAnimationComplete}
+                        className="text-2xl"
+                        />
                     </h1>
                     <Link to={buttonPath}>
                     <Button
