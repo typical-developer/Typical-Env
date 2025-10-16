@@ -49,7 +49,7 @@ export default function App({ className }) {
         scale={3}
         hueShift={0}
         colorFrequency={1}
-        noise={0.5}
+        noise={0.25}
         glow={1}
         className="absolute inset-0 z-0"
       />
