@@ -21,17 +21,17 @@ It saves time and ensures consistency in my development environment.
 
 ---
 
-### What is it
+### What is it?
 A template for my default development environment.
 
 ---
 
-### What does it do
+### What does it do?
 It saves the time I usually spend setting up my default development environment.
 
 ---
 
-### What does it contain
+### What does it contain?
 
 | Technology | Description |
 |-------------|--------------|
@@ -49,7 +49,7 @@ It saves the time I usually spend setting up my default development environment.
 
 ---
 
-### How to Use
+### How to Use?
 
 Clone the repository:
 ```bash
@@ -58,6 +58,22 @@ cd Typical-Env
 npm install
 npm run dev
 ```
+
+---
+
+###  Preview
+
+Here's a quick look at the development environment setup:
+
+<p align="center">
+  <img src="./public/preview.PNG" alt="Project Preview" width="800">
+</p>
+
+<p align="center">
+  <a href="https://typical-env.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Preview-Vercel-black?style=for-the-badge&logo=vercel" alt="Live Preview">
+  </a>
+</p>
 
 ---
 
