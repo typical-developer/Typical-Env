@@ -1,17 +1,14 @@
-import { Button } from "@/components/ui/button"
-import { cn } from "./utils/cn"
+import { Routes,Route } from "react-router";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
-export default function App(
-  {className}
-) {
+export default function App({ className }) {
   return (
-    <div className={
-      cn(
-        "flex min-h-svh flex-col items-center justify-center",
-        className
-      )
-    }>
-      <Button>Click me</Button>
-    </div>
-  )
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </>
+  );
 }
