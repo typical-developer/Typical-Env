@@ -1,0 +1,37 @@
+import { Button } from "./ui/button.jsx";
+import { Link } from "react-router-dom";
+import { cn } from "../utils/cn";
+
+
+export default function Hero(
+    {className,
+    pageName = "Page Name Here",
+    buttonLabel = "Button Text Here",
+    buttonIcon = "cross",
+    buttonPath = "/"}) {
+
+    return(
+        <>
+            <div
+                className={cn(
+                    "min-h-svh flex-center",
+                    className
+                )}
+            >
+                <div className="space-y-4 flex-center flex-col">
+                    <h1 className="font-semibold text-2xl">
+                        This is the <span className="font-code text-gray-800">{pageName}</span>
+                    </h1>
+                    <Link to={buttonPath}>
+                    <Button
+                        data-aos="fade-up"
+                        className="font-code">
+                        <i className={`bx bx-${buttonIcon}`}></i>
+                        {buttonLabel}
+                    </Button>
+                    </Link>                    
+                </div>
+            </div>
+        </>
+    );
+}

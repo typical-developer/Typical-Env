@@ -1,20 +1,9 @@
-import { Button } from "../components/ui/button.jsx";
-import { Link } from "react-router-dom";
-import { cn } from "../utils/cn.js";
+import Hero from "../components/Hero.jsx";
 
-export default function Home({className}) {
+export default function Home() {
   return (
     <>
-      <div className={cn("flex min-h-svh flex-center", className)}>
-        <Link to="/about">
-          <Button 
-            data-aos="fade-up"
-            className="font-code">
-            <i className="bx bx-question-mark"></i>
-            View About Page
-          </Button>
-        </Link>
-      </div>
+      <Hero pageName="Home Page" buttonLabel="View About Page" buttonPath="/about" buttonIcon="question-mark"/>
     </>
   );
 }
