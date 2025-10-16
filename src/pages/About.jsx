@@ -7,7 +7,9 @@ export default function About({ className }) {
     <>
       <div className={cn("flex-center min-h-svh", className)}>
         <Link to="/">
-          <Button lassName="font-code">
+          <Button 
+            data-aos="fade-up"
+            className="font-code">
             <i className="bx bx-home"></i>
             View Home Page
           </Button>
