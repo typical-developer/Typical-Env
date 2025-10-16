@@ -1,11 +1,17 @@
 import { Button } from "@/components/ui/button"
+import { cn } from "./utils/cn"
 
-function App() {
+export default function App(
+  {className}
+) {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
+    <div className={
+      cn(
+        "flex min-h-svh flex-col items-center justify-center",
+        className
+      )
+    }>
       <Button>Click me</Button>
     </div>
   )
 }
-
-export default App
