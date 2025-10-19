@@ -12,6 +12,7 @@
 [![React Bits](https://img.shields.io/badge/React%20Bits-Reusable%20Components-1E90FF?logo=react&logoColor=white)](https://reactbits.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Repo Size](https://img.shields.io/github/repo-size/typical-developer/Typical-Env?color=blue)](https://github.com/typical-developer/Typical-Env)
+[![GitHub](https://img.shields.io/badge/GitHub-typical--developer-181717?logo=github\&logoColor=white)](https://github.com/typical-developer)
 
 ---
 
