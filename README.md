@@ -47,6 +47,7 @@ It saves the time I usually spend setting up my default development environment.
 | **CSS AOS Library** | Animate On Scroll library |
 | **Shadcn UI** | Reusable, accessible components built with Radix and Tailwind |
 | **React Bits** | Reusable UI/UX React components and hooks |
+| **Conventional Commits Guide** | Industry standard commit message guidelines |
 
 ---
 
